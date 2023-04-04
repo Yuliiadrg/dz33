@@ -1,0 +1,58 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #A8C4D9;
+  color: #063f6b;
+}
+
+.container {
+  max-width: 600px;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+  text-align: center;
+  background: url(image.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+label,
+input {
+  font-size: 20px;
+}
+
+input {
+  text-align: center;
+}
+
+#weather {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.city-name,
+.city-temp {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.img {
+  width: 100px;
+
+}
+
+.description {
+  font-size: 15px;
+}
